@@ -1,0 +1,5 @@
+(x)estilização do MAIN
+(x)criar uma funçao para detectar quando der o click
+()tranformar os botoes do contador como estilizadores
+()vincular esse funçao em booleano para startar o timer
+()criar um lugar para personalizar o tempo de estudo
