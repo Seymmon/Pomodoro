@@ -67,9 +67,11 @@ li{
 .button-right{
     float: right;
     margin: 5px;
-    background-color: #C574CB;
+    background-color: white;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 600;
+    border: 1px solid black;
     
 }
 
@@ -78,6 +80,11 @@ li{
     font-size: 115px;
     text-align: center;
     font-weight: bold;
+}
+
+#tempo{
+    width: 50px;
+    text-align: center;
 }
 
 #contador{
@@ -92,16 +99,18 @@ li{
 
 .button-contador{
     margin: 5px;
-    background-color: #C574CB;
+    background-color: white;
     margin-top: 15px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 15px; 
+    border: 1px solid black;
 }
 
 #button-start{
     margin-top: 20px;
-    padding: 20px 60px;
+    padding: 10px 30px;
     background-color: white;
     color: #C574CB;
     font-weight: bold;
@@ -133,4 +142,69 @@ li{
     font-size: 13px;
     padding: 7px;
     color: #541c1f;
+}
+
+.botaoSelecionadoPomodoro{
+    margin: 5px;
+    background-color: #bc5753;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px; 
+    border: 2px solid black;
+}
+
+.botaoSelecionadoShortBreak{
+    margin: 5px;
+    background-color: #508588;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px; 
+    border: 2px solid black;
+}
+
+.botaoSelecionadoLongBreak{
+    margin: 5px;
+    background-color: #4b7592;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px; 
+    border: 2px solid black;
+}
+
+
+
+.fundoContadorPomodoro{
+    margin: auto;
+    width: 500px;
+    background-color: #dd6662 !important;
+    margin-top: 35px;
+    text-align: center; 
+    padding-bottom: 20px;  
+    border-radius: 15px; 
+}
+
+.fundoHeaderPomodoro{
+    background-color: #d95550 !important;
+}
+
+.fundoContadorShotBreak {
+    background-color: #5e9ca0 !important;
+}
+
+.fundoHeaderShortBreak{
+    background-color: #4c9195 !important;
+}
+
+.fundoContadorLongBreak{
+    background-color: #5889ac !important;
+}
+
+.fundoHeaderLongBreak{
+    background-color: #457ca3 !important;
 }
